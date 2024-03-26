@@ -1,0 +1,17 @@
+/ {
+	pins {
+		compatible = "gpio-leds";
+		a2: a2 {
+			gpios = <&gpioa 2 GPIO_ACTIVE_HIGH>;
+			label = "PIN_TRIGGER_LOGIC_A2";
+		};
+		a3: a3 {
+			gpios = <&gpioa 3 GPIO_ACTIVE_HIGH>;
+			label = "PIN_TRIGGER_LOGIC_A3";
+		};
+		a4: a4 {
+			gpios = <&gpioa 4 GPIO_ACTIVE_HIGH>;
+			label = "PIN_TRIGGER_LOGIC_A4";
+		};
+	};
+};
